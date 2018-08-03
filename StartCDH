@@ -2,4 +2,4 @@ docker run --privileged=true --hostname=quickstart.cloudera -t -i \
 -p 8888:8888 -p 7180:7180  -p 8080:80 -p 7190:7190 \
 -v /home/geoff/notebooks:/jupyter/notebooks:rw \
 -v /home/geoff/Hive/scripts:/hive/scripts:rw \
-4239cd2958c6 /usr/bin/docker-quickstart
+geoffd659/pubrepos:final /usr/bin/docker-quickstart
