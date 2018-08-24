@@ -1,0 +1,1 @@
+This directory contains the hive scripts to create internal and external tables, as well as an example script to load text files into HDFS
