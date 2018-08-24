@@ -1,0 +1,2 @@
+hdfs dfs -copyFromLocal *.par /user/hive/warehouse/raw_pulsar_data
+hdfs dfs -copyFromLocal *.tim /user/hive/warehouse/raw_pulsar_data
