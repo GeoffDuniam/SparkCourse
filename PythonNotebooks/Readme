@@ -1,1 +1,5 @@
-This folder contains the Jupyter Notebooks for the labs.
+# This folder contains the Jupyter Notebooks for the labs.
+The notebooks presented here (with the exception of the BasePysparkNotebook.ipynb) at the root of this directory, were cloned from 
+https://github.com/jadianes/spark-py-notebooks.git, maintained by Jose A Dianes and then modified for the purporses of these labs.
+
+THey are Licensed under the Apache License, Version 2.0 (the "License").
