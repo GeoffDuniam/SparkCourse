@@ -4,4 +4,4 @@ docker run --privileged=true --hostname=quickstart.cloudera -t -i \
 -v $PWD/HiveScripts:/hive/scripts:rw \
 -v $PWD/PigScripts:/pig/scripts:rw \
 -v $PWD/sqoop:/sqoop/scripts:rw \
-geoffd659/pubrepos:final /usr/bin/docker-quickstart
+geoffd659/sparkcourse:latest /usr/bin/docker-quickstart
