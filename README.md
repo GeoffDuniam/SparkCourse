@@ -10,4 +10,5 @@ The original Jupyter notebooks are available from
 
 git clone https://github.com/jadianes/spark-py-notebooks.git
 
-although you do not need to clone this epository as the modified notebooks are included in the SparkCourse repository.
+ - although you do not need to clone this repository as the modified notebooks are included in the SparkCourse PythonNotebooks
+directory.
