@@ -1,3 +1,7 @@
+--
+-- Run this script as 
+-- [root@quickstart /]# hive -f /hive/scripts/ClearHive.sql
+--
 drop table categories;
 drop table customers;
 drop table departments;
