@@ -12,4 +12,10 @@ This directory contains the hive scripts to create internal and external tables,
   b. Log onto Hue, open the Hive editor, and paste the code from the CreatHousingExt.sql file into the editor and execute.
   
   
-4. Now we have the external table, we create the internal table. What we are doing is creating the internale 
+4. Now we have the external table, we create the internal table. What we are doing is creating the internal table definition from
+   the CreatHousingInt.sql file. Notice that we are storing the table in the Parquet format. Either run iot from the command line
+   a. root@quickstart /]# hive -f /hive/scripts/CreatHousingInt.sql or
+   b. Log onto Hue, open the Hive editor and paste the code from the script and execute it.
+   
+5. Now we have the internal definition, but the table is empty. The CreatHousingIntData.sql copies the data from the external 
+   table to the internal table.
