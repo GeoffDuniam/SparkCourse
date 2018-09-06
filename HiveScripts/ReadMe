@@ -1,6 +1,6 @@
 This directory contains the hive scripts to create internal and external tables, as well as an example script to load text files into HDFS
 
-1. Clear the existtables from Hive but running the ClearHive.sql script from the command line;
+1. Clear the existing tables from Hive by running the ClearHive.sql script from the command line;
   root@quickstart /]# hive -f /hive/scripts/ClearHive.sql
   this will delete the existing tables.
   
